@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kys/UxPlay/lib/SDL.c
+SDL2/SDL.h
+-
+SDL2/SDL_ttf.h
+-
+stdbool.h
+-
+
