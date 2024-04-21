@@ -76,7 +76,9 @@ else()
   target_link_libraries( airplay PUBLIC
           pthread
           playfair
-          llhttp )
+          llhttp
+	  SDL2
+	  SDL2_ttf	 )
 endif()
 
 # libplist

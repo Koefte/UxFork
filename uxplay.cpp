@@ -55,12 +55,16 @@
 # endif
 #endif
 
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_ttf.h>
+
 #include "lib/raop.h"
 #include "lib/stream.h"
 #include "lib/logger.h"
 #include "lib/dnssd.h"
 #include "renderers/video_renderer.h"
 #include "renderers/audio_renderer.h"
+#include "lib/SDL.h"
 
 #define VERSION "1.68"
 
@@ -140,6 +144,9 @@ static std::vector <std::string> registered_keys;
 static double db_low = -30.0;
 static double db_high = 0.0;
 static bool taper_volume = false;
+
+static SDL_Renderer *renderer = NULL;
+static SDL_Window *window = NULL;
 
 /* logging */
 
@@ -1479,6 +1486,7 @@ extern "C" void video_process (void *cls, raop_ntp_t *ntp, h264_decode_struct *d
             remote_clock_offset = data->ntp_time_local - data->ntp_time_remote;
         }
         data->ntp_time_remote = data->ntp_time_remote + remote_clock_offset;
+	destroy(renderer,window);
         video_renderer_render_buffer(data->data, &(data->data_len), &(data->nal_count), &(data->ntp_time_remote));
     }
 }
@@ -1889,7 +1897,14 @@ int main (int argc, char *argv[]) {
 #endif
 
     LOGI("UxPlay %s: An Open-Source AirPlay mirroring and audio-streaming server.", VERSION);
-
+    init();
+//    SDL_Window* window = SDL_CreateWindow("SDL Window",SDL_WINDOWPOS_UNDEFINED,SDL_WINDOWPOS_UNDEFINED,1920,1080,SDL_WINDOW_SHOWN);
+    window = initWindow(1920,1080);
+    renderer = initRenderer(window);
+    clearScreen(renderer,255,255,255,255);
+    SDL_ShowCursor(SDL_DISABLE);
+    renderText(renderer,"Online as TV",500,500,128,true);
+    SDL_RenderPresent(renderer);
     if (audiosink == "0") {
         use_audio = false;
         dump_audio = false;
@@ -2102,4 +2117,5 @@ int main (int argc, char *argv[]) {
     if (coverart_filename.length()) {
 	remove (coverart_filename.c_str());
     }
+   	
 }

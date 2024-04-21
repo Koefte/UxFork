@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kys/UxPlay
+CMAKE_SOURCE_DIR = /home/kys/UxFork
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kys/UxPlay
+CMAKE_BINARY_DIR = /home/kys/UxFork
 
 # Include any dependencies generated for this target.
 include lib/playfair/CMakeFiles/playfair.dir/depend.make
@@ -78,68 +78,68 @@ include lib/playfair/CMakeFiles/playfair.dir/flags.make
 
 lib/playfair/CMakeFiles/playfair.dir/hand_garble.c.o: lib/playfair/CMakeFiles/playfair.dir/flags.make
 lib/playfair/CMakeFiles/playfair.dir/hand_garble.c.o: lib/playfair/hand_garble.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kys/UxPlay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/playfair/CMakeFiles/playfair.dir/hand_garble.c.o"
-	cd /home/kys/UxPlay/lib/playfair && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/playfair.dir/hand_garble.c.o -c /home/kys/UxPlay/lib/playfair/hand_garble.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kys/UxFork/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/playfair/CMakeFiles/playfair.dir/hand_garble.c.o"
+	cd /home/kys/UxFork/lib/playfair && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/playfair.dir/hand_garble.c.o -c /home/kys/UxFork/lib/playfair/hand_garble.c
 
 lib/playfair/CMakeFiles/playfair.dir/hand_garble.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/playfair.dir/hand_garble.c.i"
-	cd /home/kys/UxPlay/lib/playfair && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kys/UxPlay/lib/playfair/hand_garble.c > CMakeFiles/playfair.dir/hand_garble.c.i
+	cd /home/kys/UxFork/lib/playfair && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kys/UxFork/lib/playfair/hand_garble.c > CMakeFiles/playfair.dir/hand_garble.c.i
 
 lib/playfair/CMakeFiles/playfair.dir/hand_garble.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/playfair.dir/hand_garble.c.s"
-	cd /home/kys/UxPlay/lib/playfair && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kys/UxPlay/lib/playfair/hand_garble.c -o CMakeFiles/playfair.dir/hand_garble.c.s
+	cd /home/kys/UxFork/lib/playfair && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kys/UxFork/lib/playfair/hand_garble.c -o CMakeFiles/playfair.dir/hand_garble.c.s
 
 lib/playfair/CMakeFiles/playfair.dir/modified_md5.c.o: lib/playfair/CMakeFiles/playfair.dir/flags.make
 lib/playfair/CMakeFiles/playfair.dir/modified_md5.c.o: lib/playfair/modified_md5.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kys/UxPlay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/playfair/CMakeFiles/playfair.dir/modified_md5.c.o"
-	cd /home/kys/UxPlay/lib/playfair && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/playfair.dir/modified_md5.c.o -c /home/kys/UxPlay/lib/playfair/modified_md5.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kys/UxFork/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/playfair/CMakeFiles/playfair.dir/modified_md5.c.o"
+	cd /home/kys/UxFork/lib/playfair && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/playfair.dir/modified_md5.c.o -c /home/kys/UxFork/lib/playfair/modified_md5.c
 
 lib/playfair/CMakeFiles/playfair.dir/modified_md5.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/playfair.dir/modified_md5.c.i"
-	cd /home/kys/UxPlay/lib/playfair && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kys/UxPlay/lib/playfair/modified_md5.c > CMakeFiles/playfair.dir/modified_md5.c.i
+	cd /home/kys/UxFork/lib/playfair && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kys/UxFork/lib/playfair/modified_md5.c > CMakeFiles/playfair.dir/modified_md5.c.i
 
 lib/playfair/CMakeFiles/playfair.dir/modified_md5.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/playfair.dir/modified_md5.c.s"
-	cd /home/kys/UxPlay/lib/playfair && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kys/UxPlay/lib/playfair/modified_md5.c -o CMakeFiles/playfair.dir/modified_md5.c.s
+	cd /home/kys/UxFork/lib/playfair && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kys/UxFork/lib/playfair/modified_md5.c -o CMakeFiles/playfair.dir/modified_md5.c.s
 
 lib/playfair/CMakeFiles/playfair.dir/omg_hax.c.o: lib/playfair/CMakeFiles/playfair.dir/flags.make
 lib/playfair/CMakeFiles/playfair.dir/omg_hax.c.o: lib/playfair/omg_hax.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kys/UxPlay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object lib/playfair/CMakeFiles/playfair.dir/omg_hax.c.o"
-	cd /home/kys/UxPlay/lib/playfair && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/playfair.dir/omg_hax.c.o -c /home/kys/UxPlay/lib/playfair/omg_hax.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kys/UxFork/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object lib/playfair/CMakeFiles/playfair.dir/omg_hax.c.o"
+	cd /home/kys/UxFork/lib/playfair && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/playfair.dir/omg_hax.c.o -c /home/kys/UxFork/lib/playfair/omg_hax.c
 
 lib/playfair/CMakeFiles/playfair.dir/omg_hax.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/playfair.dir/omg_hax.c.i"
-	cd /home/kys/UxPlay/lib/playfair && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kys/UxPlay/lib/playfair/omg_hax.c > CMakeFiles/playfair.dir/omg_hax.c.i
+	cd /home/kys/UxFork/lib/playfair && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kys/UxFork/lib/playfair/omg_hax.c > CMakeFiles/playfair.dir/omg_hax.c.i
 
 lib/playfair/CMakeFiles/playfair.dir/omg_hax.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/playfair.dir/omg_hax.c.s"
-	cd /home/kys/UxPlay/lib/playfair && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kys/UxPlay/lib/playfair/omg_hax.c -o CMakeFiles/playfair.dir/omg_hax.c.s
+	cd /home/kys/UxFork/lib/playfair && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kys/UxFork/lib/playfair/omg_hax.c -o CMakeFiles/playfair.dir/omg_hax.c.s
 
 lib/playfair/CMakeFiles/playfair.dir/playfair.c.o: lib/playfair/CMakeFiles/playfair.dir/flags.make
 lib/playfair/CMakeFiles/playfair.dir/playfair.c.o: lib/playfair/playfair.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kys/UxPlay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object lib/playfair/CMakeFiles/playfair.dir/playfair.c.o"
-	cd /home/kys/UxPlay/lib/playfair && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/playfair.dir/playfair.c.o -c /home/kys/UxPlay/lib/playfair/playfair.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kys/UxFork/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object lib/playfair/CMakeFiles/playfair.dir/playfair.c.o"
+	cd /home/kys/UxFork/lib/playfair && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/playfair.dir/playfair.c.o -c /home/kys/UxFork/lib/playfair/playfair.c
 
 lib/playfair/CMakeFiles/playfair.dir/playfair.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/playfair.dir/playfair.c.i"
-	cd /home/kys/UxPlay/lib/playfair && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kys/UxPlay/lib/playfair/playfair.c > CMakeFiles/playfair.dir/playfair.c.i
+	cd /home/kys/UxFork/lib/playfair && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kys/UxFork/lib/playfair/playfair.c > CMakeFiles/playfair.dir/playfair.c.i
 
 lib/playfair/CMakeFiles/playfair.dir/playfair.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/playfair.dir/playfair.c.s"
-	cd /home/kys/UxPlay/lib/playfair && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kys/UxPlay/lib/playfair/playfair.c -o CMakeFiles/playfair.dir/playfair.c.s
+	cd /home/kys/UxFork/lib/playfair && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kys/UxFork/lib/playfair/playfair.c -o CMakeFiles/playfair.dir/playfair.c.s
 
 lib/playfair/CMakeFiles/playfair.dir/sap_hash.c.o: lib/playfair/CMakeFiles/playfair.dir/flags.make
 lib/playfair/CMakeFiles/playfair.dir/sap_hash.c.o: lib/playfair/sap_hash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kys/UxPlay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object lib/playfair/CMakeFiles/playfair.dir/sap_hash.c.o"
-	cd /home/kys/UxPlay/lib/playfair && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/playfair.dir/sap_hash.c.o -c /home/kys/UxPlay/lib/playfair/sap_hash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kys/UxFork/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object lib/playfair/CMakeFiles/playfair.dir/sap_hash.c.o"
+	cd /home/kys/UxFork/lib/playfair && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/playfair.dir/sap_hash.c.o -c /home/kys/UxFork/lib/playfair/sap_hash.c
 
 lib/playfair/CMakeFiles/playfair.dir/sap_hash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/playfair.dir/sap_hash.c.i"
-	cd /home/kys/UxPlay/lib/playfair && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kys/UxPlay/lib/playfair/sap_hash.c > CMakeFiles/playfair.dir/sap_hash.c.i
+	cd /home/kys/UxFork/lib/playfair && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kys/UxFork/lib/playfair/sap_hash.c > CMakeFiles/playfair.dir/sap_hash.c.i
 
 lib/playfair/CMakeFiles/playfair.dir/sap_hash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/playfair.dir/sap_hash.c.s"
-	cd /home/kys/UxPlay/lib/playfair && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kys/UxPlay/lib/playfair/sap_hash.c -o CMakeFiles/playfair.dir/sap_hash.c.s
+	cd /home/kys/UxFork/lib/playfair && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kys/UxFork/lib/playfair/sap_hash.c -o CMakeFiles/playfair.dir/sap_hash.c.s
 
 # Object files for target playfair
 playfair_OBJECTS = \
@@ -159,9 +159,9 @@ lib/playfair/libplayfair.a: lib/playfair/CMakeFiles/playfair.dir/playfair.c.o
 lib/playfair/libplayfair.a: lib/playfair/CMakeFiles/playfair.dir/sap_hash.c.o
 lib/playfair/libplayfair.a: lib/playfair/CMakeFiles/playfair.dir/build.make
 lib/playfair/libplayfair.a: lib/playfair/CMakeFiles/playfair.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kys/UxPlay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C static library libplayfair.a"
-	cd /home/kys/UxPlay/lib/playfair && $(CMAKE_COMMAND) -P CMakeFiles/playfair.dir/cmake_clean_target.cmake
-	cd /home/kys/UxPlay/lib/playfair && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/playfair.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kys/UxFork/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C static library libplayfair.a"
+	cd /home/kys/UxFork/lib/playfair && $(CMAKE_COMMAND) -P CMakeFiles/playfair.dir/cmake_clean_target.cmake
+	cd /home/kys/UxFork/lib/playfair && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/playfair.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/playfair/CMakeFiles/playfair.dir/build: lib/playfair/libplayfair.a
@@ -169,10 +169,10 @@ lib/playfair/CMakeFiles/playfair.dir/build: lib/playfair/libplayfair.a
 .PHONY : lib/playfair/CMakeFiles/playfair.dir/build
 
 lib/playfair/CMakeFiles/playfair.dir/clean:
-	cd /home/kys/UxPlay/lib/playfair && $(CMAKE_COMMAND) -P CMakeFiles/playfair.dir/cmake_clean.cmake
+	cd /home/kys/UxFork/lib/playfair && $(CMAKE_COMMAND) -P CMakeFiles/playfair.dir/cmake_clean.cmake
 .PHONY : lib/playfair/CMakeFiles/playfair.dir/clean
 
 lib/playfair/CMakeFiles/playfair.dir/depend:
-	cd /home/kys/UxPlay && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kys/UxPlay /home/kys/UxPlay/lib/playfair /home/kys/UxPlay /home/kys/UxPlay/lib/playfair /home/kys/UxPlay/lib/playfair/CMakeFiles/playfair.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kys/UxFork && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kys/UxFork /home/kys/UxFork/lib/playfair /home/kys/UxFork /home/kys/UxFork/lib/playfair /home/kys/UxFork/lib/playfair/CMakeFiles/playfair.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/playfair/CMakeFiles/playfair.dir/depend
 

@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/kys/UxPlay/lib/playfair/hand_garble.c
+/home/kys/UxFork/lib/playfair/hand_garble.c
 stdint.h
 -
 stdio.h
 -
 
-/home/kys/UxPlay/lib/playfair/modified_md5.c
+/home/kys/UxFork/lib/playfair/modified_md5.c
 stdint.h
 -
 math.h
@@ -26,7 +26,7 @@ assert.h
 string.h
 -
 
-/home/kys/UxPlay/lib/playfair/omg_hax.c
+/home/kys/UxFork/lib/playfair/omg_hax.c
 stdio.h
 -
 stdint.h
@@ -36,19 +36,19 @@ stdlib.h
 string.h
 -
 omg_hax.h
-/home/kys/UxPlay/lib/playfair/omg_hax.h
+/home/kys/UxFork/lib/playfair/omg_hax.h
 
-/home/kys/UxPlay/lib/playfair/omg_hax.h
+/home/kys/UxFork/lib/playfair/omg_hax.h
 
-/home/kys/UxPlay/lib/playfair/playfair.c
+/home/kys/UxFork/lib/playfair/playfair.c
 stdint.h
 -
 playfair.h
-/home/kys/UxPlay/lib/playfair/playfair.h
+/home/kys/UxFork/lib/playfair/playfair.h
 
-/home/kys/UxPlay/lib/playfair/playfair.h
+/home/kys/UxFork/lib/playfair/playfair.h
 
-/home/kys/UxPlay/lib/playfair/sap_hash.c
+/home/kys/UxFork/lib/playfair/sap_hash.c
 stdint.h
 -
 stdio.h

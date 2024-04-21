@@ -1,0 +1,23 @@
+Determining if files sys/endian.h exist failed with the following output:
+Change Dir: /home/kys/UxFork/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_6e334/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6e334.dir/build.make CMakeFiles/cmTC_6e334.dir/build
+gmake[1]: Entering directory '/home/kys/UxFork/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6e334.dir/BSD.c.o
+/usr/bin/cc   -DSTANDALONE -D__STDC_CONSTANT_MACROS -D__STDC_LIMIT_MACROS -DTARGET_POSIX -D_LINUX -fPIC -DPIC -D_REENTRANT -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64  -Wall -O2   -o CMakeFiles/cmTC_6e334.dir/BSD.c.o -c /home/kys/UxFork/CMakeFiles/CheckIncludeFiles/BSD.c
+/home/kys/UxFork/CMakeFiles/CheckIncludeFiles/BSD.c:2:10: fatal error: sys/endian.h: No such file or directory
+    2 | #include <sys/endian.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_6e334.dir/build.make:85: CMakeFiles/cmTC_6e334.dir/BSD.c.o] Error 1
+gmake[1]: Leaving directory '/home/kys/UxFork/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_6e334/fast] Error 2
+
+
+Source:
+/* */
+#include <sys/endian.h>
+
+
+int main(void){return 0;}
+

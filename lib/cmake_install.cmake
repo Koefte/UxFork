@@ -1,4 +1,4 @@
-# Install script for directory: /home/kys/UxPlay/lib
+# Install script for directory: /home/kys/UxFork/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

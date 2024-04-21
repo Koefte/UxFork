@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kys/UxPlay
+CMAKE_SOURCE_DIR = /home/kys/UxFork
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kys/UxPlay
+CMAKE_BINARY_DIR = /home/kys/UxFork
 
 # Include any dependencies generated for this target.
 include lib/llhttp/CMakeFiles/llhttp.dir/depend.make
@@ -78,42 +78,42 @@ include lib/llhttp/CMakeFiles/llhttp.dir/flags.make
 
 lib/llhttp/CMakeFiles/llhttp.dir/api.c.o: lib/llhttp/CMakeFiles/llhttp.dir/flags.make
 lib/llhttp/CMakeFiles/llhttp.dir/api.c.o: lib/llhttp/api.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kys/UxPlay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/llhttp/CMakeFiles/llhttp.dir/api.c.o"
-	cd /home/kys/UxPlay/lib/llhttp && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/llhttp.dir/api.c.o -c /home/kys/UxPlay/lib/llhttp/api.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kys/UxFork/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/llhttp/CMakeFiles/llhttp.dir/api.c.o"
+	cd /home/kys/UxFork/lib/llhttp && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/llhttp.dir/api.c.o -c /home/kys/UxFork/lib/llhttp/api.c
 
 lib/llhttp/CMakeFiles/llhttp.dir/api.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/llhttp.dir/api.c.i"
-	cd /home/kys/UxPlay/lib/llhttp && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kys/UxPlay/lib/llhttp/api.c > CMakeFiles/llhttp.dir/api.c.i
+	cd /home/kys/UxFork/lib/llhttp && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kys/UxFork/lib/llhttp/api.c > CMakeFiles/llhttp.dir/api.c.i
 
 lib/llhttp/CMakeFiles/llhttp.dir/api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/llhttp.dir/api.c.s"
-	cd /home/kys/UxPlay/lib/llhttp && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kys/UxPlay/lib/llhttp/api.c -o CMakeFiles/llhttp.dir/api.c.s
+	cd /home/kys/UxFork/lib/llhttp && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kys/UxFork/lib/llhttp/api.c -o CMakeFiles/llhttp.dir/api.c.s
 
 lib/llhttp/CMakeFiles/llhttp.dir/http.c.o: lib/llhttp/CMakeFiles/llhttp.dir/flags.make
 lib/llhttp/CMakeFiles/llhttp.dir/http.c.o: lib/llhttp/http.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kys/UxPlay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/llhttp/CMakeFiles/llhttp.dir/http.c.o"
-	cd /home/kys/UxPlay/lib/llhttp && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/llhttp.dir/http.c.o -c /home/kys/UxPlay/lib/llhttp/http.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kys/UxFork/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/llhttp/CMakeFiles/llhttp.dir/http.c.o"
+	cd /home/kys/UxFork/lib/llhttp && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/llhttp.dir/http.c.o -c /home/kys/UxFork/lib/llhttp/http.c
 
 lib/llhttp/CMakeFiles/llhttp.dir/http.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/llhttp.dir/http.c.i"
-	cd /home/kys/UxPlay/lib/llhttp && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kys/UxPlay/lib/llhttp/http.c > CMakeFiles/llhttp.dir/http.c.i
+	cd /home/kys/UxFork/lib/llhttp && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kys/UxFork/lib/llhttp/http.c > CMakeFiles/llhttp.dir/http.c.i
 
 lib/llhttp/CMakeFiles/llhttp.dir/http.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/llhttp.dir/http.c.s"
-	cd /home/kys/UxPlay/lib/llhttp && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kys/UxPlay/lib/llhttp/http.c -o CMakeFiles/llhttp.dir/http.c.s
+	cd /home/kys/UxFork/lib/llhttp && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kys/UxFork/lib/llhttp/http.c -o CMakeFiles/llhttp.dir/http.c.s
 
 lib/llhttp/CMakeFiles/llhttp.dir/llhttp.c.o: lib/llhttp/CMakeFiles/llhttp.dir/flags.make
 lib/llhttp/CMakeFiles/llhttp.dir/llhttp.c.o: lib/llhttp/llhttp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kys/UxPlay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object lib/llhttp/CMakeFiles/llhttp.dir/llhttp.c.o"
-	cd /home/kys/UxPlay/lib/llhttp && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/llhttp.dir/llhttp.c.o -c /home/kys/UxPlay/lib/llhttp/llhttp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kys/UxFork/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object lib/llhttp/CMakeFiles/llhttp.dir/llhttp.c.o"
+	cd /home/kys/UxFork/lib/llhttp && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/llhttp.dir/llhttp.c.o -c /home/kys/UxFork/lib/llhttp/llhttp.c
 
 lib/llhttp/CMakeFiles/llhttp.dir/llhttp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/llhttp.dir/llhttp.c.i"
-	cd /home/kys/UxPlay/lib/llhttp && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kys/UxPlay/lib/llhttp/llhttp.c > CMakeFiles/llhttp.dir/llhttp.c.i
+	cd /home/kys/UxFork/lib/llhttp && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kys/UxFork/lib/llhttp/llhttp.c > CMakeFiles/llhttp.dir/llhttp.c.i
 
 lib/llhttp/CMakeFiles/llhttp.dir/llhttp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/llhttp.dir/llhttp.c.s"
-	cd /home/kys/UxPlay/lib/llhttp && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kys/UxPlay/lib/llhttp/llhttp.c -o CMakeFiles/llhttp.dir/llhttp.c.s
+	cd /home/kys/UxFork/lib/llhttp && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kys/UxFork/lib/llhttp/llhttp.c -o CMakeFiles/llhttp.dir/llhttp.c.s
 
 # Object files for target llhttp
 llhttp_OBJECTS = \
@@ -129,9 +129,9 @@ lib/llhttp/libllhttp.a: lib/llhttp/CMakeFiles/llhttp.dir/http.c.o
 lib/llhttp/libllhttp.a: lib/llhttp/CMakeFiles/llhttp.dir/llhttp.c.o
 lib/llhttp/libllhttp.a: lib/llhttp/CMakeFiles/llhttp.dir/build.make
 lib/llhttp/libllhttp.a: lib/llhttp/CMakeFiles/llhttp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kys/UxPlay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libllhttp.a"
-	cd /home/kys/UxPlay/lib/llhttp && $(CMAKE_COMMAND) -P CMakeFiles/llhttp.dir/cmake_clean_target.cmake
-	cd /home/kys/UxPlay/lib/llhttp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llhttp.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kys/UxFork/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libllhttp.a"
+	cd /home/kys/UxFork/lib/llhttp && $(CMAKE_COMMAND) -P CMakeFiles/llhttp.dir/cmake_clean_target.cmake
+	cd /home/kys/UxFork/lib/llhttp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llhttp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/llhttp/CMakeFiles/llhttp.dir/build: lib/llhttp/libllhttp.a
@@ -139,10 +139,10 @@ lib/llhttp/CMakeFiles/llhttp.dir/build: lib/llhttp/libllhttp.a
 .PHONY : lib/llhttp/CMakeFiles/llhttp.dir/build
 
 lib/llhttp/CMakeFiles/llhttp.dir/clean:
-	cd /home/kys/UxPlay/lib/llhttp && $(CMAKE_COMMAND) -P CMakeFiles/llhttp.dir/cmake_clean.cmake
+	cd /home/kys/UxFork/lib/llhttp && $(CMAKE_COMMAND) -P CMakeFiles/llhttp.dir/cmake_clean.cmake
 .PHONY : lib/llhttp/CMakeFiles/llhttp.dir/clean
 
 lib/llhttp/CMakeFiles/llhttp.dir/depend:
-	cd /home/kys/UxPlay && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kys/UxPlay /home/kys/UxPlay/lib/llhttp /home/kys/UxPlay /home/kys/UxPlay/lib/llhttp /home/kys/UxPlay/lib/llhttp/CMakeFiles/llhttp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kys/UxFork && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kys/UxFork /home/kys/UxFork/lib/llhttp /home/kys/UxFork /home/kys/UxFork/lib/llhttp /home/kys/UxFork/lib/llhttp/CMakeFiles/llhttp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/llhttp/CMakeFiles/llhttp.dir/depend
 

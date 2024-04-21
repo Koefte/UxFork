@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/kys/UxPlay/lib/llhttp/api.c" "/home/kys/UxPlay/lib/llhttp/CMakeFiles/llhttp.dir/api.c.o"
-  "/home/kys/UxPlay/lib/llhttp/http.c" "/home/kys/UxPlay/lib/llhttp/CMakeFiles/llhttp.dir/http.c.o"
-  "/home/kys/UxPlay/lib/llhttp/llhttp.c" "/home/kys/UxPlay/lib/llhttp/CMakeFiles/llhttp.dir/llhttp.c.o"
+  "/home/kys/UxFork/lib/llhttp/api.c" "/home/kys/UxFork/lib/llhttp/CMakeFiles/llhttp.dir/api.c.o"
+  "/home/kys/UxFork/lib/llhttp/http.c" "/home/kys/UxFork/lib/llhttp/CMakeFiles/llhttp.dir/http.c.o"
+  "/home/kys/UxFork/lib/llhttp/llhttp.c" "/home/kys/UxFork/lib/llhttp/CMakeFiles/llhttp.dir/llhttp.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

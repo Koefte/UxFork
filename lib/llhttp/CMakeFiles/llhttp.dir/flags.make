@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DSUPPRESS_AVAHI_COMPAT_WARNING
 
-C_INCLUDES = -I/home/kys/UxPlay/lib/llhttp/.
+C_INCLUDES = -I/home/kys/UxFork/lib/llhttp/.
 
 C_FLAGS = 
 

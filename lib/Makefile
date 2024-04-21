@@ -67,10 +67,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kys/UxPlay
+CMAKE_SOURCE_DIR = /home/kys/UxFork
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kys/UxPlay
+CMAKE_BINARY_DIR = /home/kys/UxFork
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -145,14 +145,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kys/UxPlay && $(CMAKE_COMMAND) -E cmake_progress_start /home/kys/UxPlay/CMakeFiles /home/kys/UxPlay/lib//CMakeFiles/progress.marks
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kys/UxPlay/CMakeFiles 0
+	cd /home/kys/UxFork && $(CMAKE_COMMAND) -E cmake_progress_start /home/kys/UxFork/CMakeFiles /home/kys/UxFork/lib//CMakeFiles/progress.marks
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kys/UxFork/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/clean
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -162,22 +162,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kys/UxPlay && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kys/UxFork && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/CMakeFiles/airplay.dir/rule:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/airplay.dir/rule
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/airplay.dir/rule
 .PHONY : lib/CMakeFiles/airplay.dir/rule
 
 # Convenience name for target.
@@ -187,7 +187,7 @@ airplay: lib/CMakeFiles/airplay.dir/rule
 
 # fast build rule for target.
 airplay/fast:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/build
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/build
 .PHONY : airplay/fast
 
 SDL.o: SDL.c.o
@@ -196,7 +196,7 @@ SDL.o: SDL.c.o
 
 # target to build an object file
 SDL.c.o:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/SDL.c.o
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/SDL.c.o
 .PHONY : SDL.c.o
 
 SDL.i: SDL.c.i
@@ -205,7 +205,7 @@ SDL.i: SDL.c.i
 
 # target to preprocess a source file
 SDL.c.i:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/SDL.c.i
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/SDL.c.i
 .PHONY : SDL.c.i
 
 SDL.s: SDL.c.s
@@ -214,7 +214,7 @@ SDL.s: SDL.c.s
 
 # target to generate assembly for a file
 SDL.c.s:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/SDL.c.s
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/SDL.c.s
 .PHONY : SDL.c.s
 
 byteutils.o: byteutils.c.o
@@ -223,7 +223,7 @@ byteutils.o: byteutils.c.o
 
 # target to build an object file
 byteutils.c.o:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/byteutils.c.o
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/byteutils.c.o
 .PHONY : byteutils.c.o
 
 byteutils.i: byteutils.c.i
@@ -232,7 +232,7 @@ byteutils.i: byteutils.c.i
 
 # target to preprocess a source file
 byteutils.c.i:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/byteutils.c.i
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/byteutils.c.i
 .PHONY : byteutils.c.i
 
 byteutils.s: byteutils.c.s
@@ -241,7 +241,7 @@ byteutils.s: byteutils.c.s
 
 # target to generate assembly for a file
 byteutils.c.s:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/byteutils.c.s
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/byteutils.c.s
 .PHONY : byteutils.c.s
 
 crypto.o: crypto.c.o
@@ -250,7 +250,7 @@ crypto.o: crypto.c.o
 
 # target to build an object file
 crypto.c.o:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/crypto.c.o
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/crypto.c.o
 .PHONY : crypto.c.o
 
 crypto.i: crypto.c.i
@@ -259,7 +259,7 @@ crypto.i: crypto.c.i
 
 # target to preprocess a source file
 crypto.c.i:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/crypto.c.i
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/crypto.c.i
 .PHONY : crypto.c.i
 
 crypto.s: crypto.c.s
@@ -268,7 +268,7 @@ crypto.s: crypto.c.s
 
 # target to generate assembly for a file
 crypto.c.s:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/crypto.c.s
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/crypto.c.s
 .PHONY : crypto.c.s
 
 dnssd.o: dnssd.c.o
@@ -277,7 +277,7 @@ dnssd.o: dnssd.c.o
 
 # target to build an object file
 dnssd.c.o:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/dnssd.c.o
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/dnssd.c.o
 .PHONY : dnssd.c.o
 
 dnssd.i: dnssd.c.i
@@ -286,7 +286,7 @@ dnssd.i: dnssd.c.i
 
 # target to preprocess a source file
 dnssd.c.i:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/dnssd.c.i
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/dnssd.c.i
 .PHONY : dnssd.c.i
 
 dnssd.s: dnssd.c.s
@@ -295,7 +295,7 @@ dnssd.s: dnssd.c.s
 
 # target to generate assembly for a file
 dnssd.c.s:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/dnssd.c.s
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/dnssd.c.s
 .PHONY : dnssd.c.s
 
 fairplay_playfair.o: fairplay_playfair.c.o
@@ -304,7 +304,7 @@ fairplay_playfair.o: fairplay_playfair.c.o
 
 # target to build an object file
 fairplay_playfair.c.o:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/fairplay_playfair.c.o
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/fairplay_playfair.c.o
 .PHONY : fairplay_playfair.c.o
 
 fairplay_playfair.i: fairplay_playfair.c.i
@@ -313,7 +313,7 @@ fairplay_playfair.i: fairplay_playfair.c.i
 
 # target to preprocess a source file
 fairplay_playfair.c.i:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/fairplay_playfair.c.i
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/fairplay_playfair.c.i
 .PHONY : fairplay_playfair.c.i
 
 fairplay_playfair.s: fairplay_playfair.c.s
@@ -322,7 +322,7 @@ fairplay_playfair.s: fairplay_playfair.c.s
 
 # target to generate assembly for a file
 fairplay_playfair.c.s:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/fairplay_playfair.c.s
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/fairplay_playfair.c.s
 .PHONY : fairplay_playfair.c.s
 
 http_request.o: http_request.c.o
@@ -331,7 +331,7 @@ http_request.o: http_request.c.o
 
 # target to build an object file
 http_request.c.o:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/http_request.c.o
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/http_request.c.o
 .PHONY : http_request.c.o
 
 http_request.i: http_request.c.i
@@ -340,7 +340,7 @@ http_request.i: http_request.c.i
 
 # target to preprocess a source file
 http_request.c.i:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/http_request.c.i
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/http_request.c.i
 .PHONY : http_request.c.i
 
 http_request.s: http_request.c.s
@@ -349,7 +349,7 @@ http_request.s: http_request.c.s
 
 # target to generate assembly for a file
 http_request.c.s:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/http_request.c.s
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/http_request.c.s
 .PHONY : http_request.c.s
 
 http_response.o: http_response.c.o
@@ -358,7 +358,7 @@ http_response.o: http_response.c.o
 
 # target to build an object file
 http_response.c.o:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/http_response.c.o
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/http_response.c.o
 .PHONY : http_response.c.o
 
 http_response.i: http_response.c.i
@@ -367,7 +367,7 @@ http_response.i: http_response.c.i
 
 # target to preprocess a source file
 http_response.c.i:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/http_response.c.i
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/http_response.c.i
 .PHONY : http_response.c.i
 
 http_response.s: http_response.c.s
@@ -376,7 +376,7 @@ http_response.s: http_response.c.s
 
 # target to generate assembly for a file
 http_response.c.s:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/http_response.c.s
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/http_response.c.s
 .PHONY : http_response.c.s
 
 httpd.o: httpd.c.o
@@ -385,7 +385,7 @@ httpd.o: httpd.c.o
 
 # target to build an object file
 httpd.c.o:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/httpd.c.o
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/httpd.c.o
 .PHONY : httpd.c.o
 
 httpd.i: httpd.c.i
@@ -394,7 +394,7 @@ httpd.i: httpd.c.i
 
 # target to preprocess a source file
 httpd.c.i:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/httpd.c.i
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/httpd.c.i
 .PHONY : httpd.c.i
 
 httpd.s: httpd.c.s
@@ -403,7 +403,7 @@ httpd.s: httpd.c.s
 
 # target to generate assembly for a file
 httpd.c.s:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/httpd.c.s
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/httpd.c.s
 .PHONY : httpd.c.s
 
 logger.o: logger.c.o
@@ -412,7 +412,7 @@ logger.o: logger.c.o
 
 # target to build an object file
 logger.c.o:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/logger.c.o
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/logger.c.o
 .PHONY : logger.c.o
 
 logger.i: logger.c.i
@@ -421,7 +421,7 @@ logger.i: logger.c.i
 
 # target to preprocess a source file
 logger.c.i:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/logger.c.i
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/logger.c.i
 .PHONY : logger.c.i
 
 logger.s: logger.c.s
@@ -430,7 +430,7 @@ logger.s: logger.c.s
 
 # target to generate assembly for a file
 logger.c.s:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/logger.c.s
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/logger.c.s
 .PHONY : logger.c.s
 
 mirror_buffer.o: mirror_buffer.c.o
@@ -439,7 +439,7 @@ mirror_buffer.o: mirror_buffer.c.o
 
 # target to build an object file
 mirror_buffer.c.o:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/mirror_buffer.c.o
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/mirror_buffer.c.o
 .PHONY : mirror_buffer.c.o
 
 mirror_buffer.i: mirror_buffer.c.i
@@ -448,7 +448,7 @@ mirror_buffer.i: mirror_buffer.c.i
 
 # target to preprocess a source file
 mirror_buffer.c.i:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/mirror_buffer.c.i
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/mirror_buffer.c.i
 .PHONY : mirror_buffer.c.i
 
 mirror_buffer.s: mirror_buffer.c.s
@@ -457,7 +457,7 @@ mirror_buffer.s: mirror_buffer.c.s
 
 # target to generate assembly for a file
 mirror_buffer.c.s:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/mirror_buffer.c.s
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/mirror_buffer.c.s
 .PHONY : mirror_buffer.c.s
 
 netutils.o: netutils.c.o
@@ -466,7 +466,7 @@ netutils.o: netutils.c.o
 
 # target to build an object file
 netutils.c.o:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/netutils.c.o
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/netutils.c.o
 .PHONY : netutils.c.o
 
 netutils.i: netutils.c.i
@@ -475,7 +475,7 @@ netutils.i: netutils.c.i
 
 # target to preprocess a source file
 netutils.c.i:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/netutils.c.i
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/netutils.c.i
 .PHONY : netutils.c.i
 
 netutils.s: netutils.c.s
@@ -484,7 +484,7 @@ netutils.s: netutils.c.s
 
 # target to generate assembly for a file
 netutils.c.s:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/netutils.c.s
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/netutils.c.s
 .PHONY : netutils.c.s
 
 pairing.o: pairing.c.o
@@ -493,7 +493,7 @@ pairing.o: pairing.c.o
 
 # target to build an object file
 pairing.c.o:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/pairing.c.o
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/pairing.c.o
 .PHONY : pairing.c.o
 
 pairing.i: pairing.c.i
@@ -502,7 +502,7 @@ pairing.i: pairing.c.i
 
 # target to preprocess a source file
 pairing.c.i:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/pairing.c.i
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/pairing.c.i
 .PHONY : pairing.c.i
 
 pairing.s: pairing.c.s
@@ -511,7 +511,7 @@ pairing.s: pairing.c.s
 
 # target to generate assembly for a file
 pairing.c.s:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/pairing.c.s
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/pairing.c.s
 .PHONY : pairing.c.s
 
 raop.o: raop.c.o
@@ -520,7 +520,7 @@ raop.o: raop.c.o
 
 # target to build an object file
 raop.c.o:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/raop.c.o
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/raop.c.o
 .PHONY : raop.c.o
 
 raop.i: raop.c.i
@@ -529,7 +529,7 @@ raop.i: raop.c.i
 
 # target to preprocess a source file
 raop.c.i:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/raop.c.i
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/raop.c.i
 .PHONY : raop.c.i
 
 raop.s: raop.c.s
@@ -538,7 +538,7 @@ raop.s: raop.c.s
 
 # target to generate assembly for a file
 raop.c.s:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/raop.c.s
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/raop.c.s
 .PHONY : raop.c.s
 
 raop_buffer.o: raop_buffer.c.o
@@ -547,7 +547,7 @@ raop_buffer.o: raop_buffer.c.o
 
 # target to build an object file
 raop_buffer.c.o:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/raop_buffer.c.o
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/raop_buffer.c.o
 .PHONY : raop_buffer.c.o
 
 raop_buffer.i: raop_buffer.c.i
@@ -556,7 +556,7 @@ raop_buffer.i: raop_buffer.c.i
 
 # target to preprocess a source file
 raop_buffer.c.i:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/raop_buffer.c.i
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/raop_buffer.c.i
 .PHONY : raop_buffer.c.i
 
 raop_buffer.s: raop_buffer.c.s
@@ -565,7 +565,7 @@ raop_buffer.s: raop_buffer.c.s
 
 # target to generate assembly for a file
 raop_buffer.c.s:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/raop_buffer.c.s
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/raop_buffer.c.s
 .PHONY : raop_buffer.c.s
 
 raop_ntp.o: raop_ntp.c.o
@@ -574,7 +574,7 @@ raop_ntp.o: raop_ntp.c.o
 
 # target to build an object file
 raop_ntp.c.o:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/raop_ntp.c.o
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/raop_ntp.c.o
 .PHONY : raop_ntp.c.o
 
 raop_ntp.i: raop_ntp.c.i
@@ -583,7 +583,7 @@ raop_ntp.i: raop_ntp.c.i
 
 # target to preprocess a source file
 raop_ntp.c.i:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/raop_ntp.c.i
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/raop_ntp.c.i
 .PHONY : raop_ntp.c.i
 
 raop_ntp.s: raop_ntp.c.s
@@ -592,7 +592,7 @@ raop_ntp.s: raop_ntp.c.s
 
 # target to generate assembly for a file
 raop_ntp.c.s:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/raop_ntp.c.s
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/raop_ntp.c.s
 .PHONY : raop_ntp.c.s
 
 raop_rtp.o: raop_rtp.c.o
@@ -601,7 +601,7 @@ raop_rtp.o: raop_rtp.c.o
 
 # target to build an object file
 raop_rtp.c.o:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/raop_rtp.c.o
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/raop_rtp.c.o
 .PHONY : raop_rtp.c.o
 
 raop_rtp.i: raop_rtp.c.i
@@ -610,7 +610,7 @@ raop_rtp.i: raop_rtp.c.i
 
 # target to preprocess a source file
 raop_rtp.c.i:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/raop_rtp.c.i
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/raop_rtp.c.i
 .PHONY : raop_rtp.c.i
 
 raop_rtp.s: raop_rtp.c.s
@@ -619,7 +619,7 @@ raop_rtp.s: raop_rtp.c.s
 
 # target to generate assembly for a file
 raop_rtp.c.s:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/raop_rtp.c.s
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/raop_rtp.c.s
 .PHONY : raop_rtp.c.s
 
 raop_rtp_mirror.o: raop_rtp_mirror.c.o
@@ -628,7 +628,7 @@ raop_rtp_mirror.o: raop_rtp_mirror.c.o
 
 # target to build an object file
 raop_rtp_mirror.c.o:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/raop_rtp_mirror.c.o
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/raop_rtp_mirror.c.o
 .PHONY : raop_rtp_mirror.c.o
 
 raop_rtp_mirror.i: raop_rtp_mirror.c.i
@@ -637,7 +637,7 @@ raop_rtp_mirror.i: raop_rtp_mirror.c.i
 
 # target to preprocess a source file
 raop_rtp_mirror.c.i:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/raop_rtp_mirror.c.i
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/raop_rtp_mirror.c.i
 .PHONY : raop_rtp_mirror.c.i
 
 raop_rtp_mirror.s: raop_rtp_mirror.c.s
@@ -646,7 +646,7 @@ raop_rtp_mirror.s: raop_rtp_mirror.c.s
 
 # target to generate assembly for a file
 raop_rtp_mirror.c.s:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/raop_rtp_mirror.c.s
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/raop_rtp_mirror.c.s
 .PHONY : raop_rtp_mirror.c.s
 
 srp.o: srp.c.o
@@ -655,7 +655,7 @@ srp.o: srp.c.o
 
 # target to build an object file
 srp.c.o:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/srp.c.o
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/srp.c.o
 .PHONY : srp.c.o
 
 srp.i: srp.c.i
@@ -664,7 +664,7 @@ srp.i: srp.c.i
 
 # target to preprocess a source file
 srp.c.i:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/srp.c.i
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/srp.c.i
 .PHONY : srp.c.i
 
 srp.s: srp.c.s
@@ -673,7 +673,7 @@ srp.s: srp.c.s
 
 # target to generate assembly for a file
 srp.c.s:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/srp.c.s
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/srp.c.s
 .PHONY : srp.c.s
 
 utils.o: utils.c.o
@@ -682,7 +682,7 @@ utils.o: utils.c.o
 
 # target to build an object file
 utils.c.o:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/utils.c.o
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/utils.c.o
 .PHONY : utils.c.o
 
 utils.i: utils.c.i
@@ -691,7 +691,7 @@ utils.i: utils.c.i
 
 # target to preprocess a source file
 utils.c.i:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/utils.c.i
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/utils.c.i
 .PHONY : utils.c.i
 
 utils.s: utils.c.s
@@ -700,7 +700,7 @@ utils.s: utils.c.s
 
 # target to generate assembly for a file
 utils.c.s:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/utils.c.s
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/airplay.dir/build.make lib/CMakeFiles/airplay.dir/utils.c.s
 .PHONY : utils.c.s
 
 # Help Target
@@ -784,6 +784,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kys/UxPlay && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kys/UxFork && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

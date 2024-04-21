@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/kys/UxPlay/lib/playfair/hand_garble.c" "/home/kys/UxPlay/lib/playfair/CMakeFiles/playfair.dir/hand_garble.c.o"
-  "/home/kys/UxPlay/lib/playfair/modified_md5.c" "/home/kys/UxPlay/lib/playfair/CMakeFiles/playfair.dir/modified_md5.c.o"
-  "/home/kys/UxPlay/lib/playfair/omg_hax.c" "/home/kys/UxPlay/lib/playfair/CMakeFiles/playfair.dir/omg_hax.c.o"
-  "/home/kys/UxPlay/lib/playfair/playfair.c" "/home/kys/UxPlay/lib/playfair/CMakeFiles/playfair.dir/playfair.c.o"
-  "/home/kys/UxPlay/lib/playfair/sap_hash.c" "/home/kys/UxPlay/lib/playfair/CMakeFiles/playfair.dir/sap_hash.c.o"
+  "/home/kys/UxFork/lib/playfair/hand_garble.c" "/home/kys/UxFork/lib/playfair/CMakeFiles/playfair.dir/hand_garble.c.o"
+  "/home/kys/UxFork/lib/playfair/modified_md5.c" "/home/kys/UxFork/lib/playfair/CMakeFiles/playfair.dir/modified_md5.c.o"
+  "/home/kys/UxFork/lib/playfair/omg_hax.c" "/home/kys/UxFork/lib/playfair/CMakeFiles/playfair.dir/omg_hax.c.o"
+  "/home/kys/UxFork/lib/playfair/playfair.c" "/home/kys/UxFork/lib/playfair/CMakeFiles/playfair.dir/playfair.c.o"
+  "/home/kys/UxFork/lib/playfair/sap_hash.c" "/home/kys/UxFork/lib/playfair/CMakeFiles/playfair.dir/sap_hash.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -67,10 +67,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kys/UxPlay
+CMAKE_SOURCE_DIR = /home/kys/UxFork
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kys/UxPlay
+CMAKE_BINARY_DIR = /home/kys/UxFork
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -145,14 +145,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kys/UxPlay && $(CMAKE_COMMAND) -E cmake_progress_start /home/kys/UxPlay/CMakeFiles /home/kys/UxPlay/lib/llhttp//CMakeFiles/progress.marks
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/llhttp/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kys/UxPlay/CMakeFiles 0
+	cd /home/kys/UxFork && $(CMAKE_COMMAND) -E cmake_progress_start /home/kys/UxFork/CMakeFiles /home/kys/UxFork/lib/llhttp//CMakeFiles/progress.marks
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/llhttp/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kys/UxFork/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/llhttp/clean
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/llhttp/clean
 .PHONY : clean
 
 # The main clean target
@@ -162,22 +162,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/llhttp/preinstall
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/llhttp/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/llhttp/preinstall
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/llhttp/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kys/UxPlay && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kys/UxFork && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/llhttp/CMakeFiles/llhttp.dir/rule:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/llhttp/CMakeFiles/llhttp.dir/rule
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/llhttp/CMakeFiles/llhttp.dir/rule
 .PHONY : lib/llhttp/CMakeFiles/llhttp.dir/rule
 
 # Convenience name for target.
@@ -187,7 +187,7 @@ llhttp: lib/llhttp/CMakeFiles/llhttp.dir/rule
 
 # fast build rule for target.
 llhttp/fast:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/llhttp/CMakeFiles/llhttp.dir/build.make lib/llhttp/CMakeFiles/llhttp.dir/build
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/llhttp/CMakeFiles/llhttp.dir/build.make lib/llhttp/CMakeFiles/llhttp.dir/build
 .PHONY : llhttp/fast
 
 api.o: api.c.o
@@ -196,7 +196,7 @@ api.o: api.c.o
 
 # target to build an object file
 api.c.o:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/llhttp/CMakeFiles/llhttp.dir/build.make lib/llhttp/CMakeFiles/llhttp.dir/api.c.o
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/llhttp/CMakeFiles/llhttp.dir/build.make lib/llhttp/CMakeFiles/llhttp.dir/api.c.o
 .PHONY : api.c.o
 
 api.i: api.c.i
@@ -205,7 +205,7 @@ api.i: api.c.i
 
 # target to preprocess a source file
 api.c.i:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/llhttp/CMakeFiles/llhttp.dir/build.make lib/llhttp/CMakeFiles/llhttp.dir/api.c.i
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/llhttp/CMakeFiles/llhttp.dir/build.make lib/llhttp/CMakeFiles/llhttp.dir/api.c.i
 .PHONY : api.c.i
 
 api.s: api.c.s
@@ -214,7 +214,7 @@ api.s: api.c.s
 
 # target to generate assembly for a file
 api.c.s:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/llhttp/CMakeFiles/llhttp.dir/build.make lib/llhttp/CMakeFiles/llhttp.dir/api.c.s
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/llhttp/CMakeFiles/llhttp.dir/build.make lib/llhttp/CMakeFiles/llhttp.dir/api.c.s
 .PHONY : api.c.s
 
 http.o: http.c.o
@@ -223,7 +223,7 @@ http.o: http.c.o
 
 # target to build an object file
 http.c.o:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/llhttp/CMakeFiles/llhttp.dir/build.make lib/llhttp/CMakeFiles/llhttp.dir/http.c.o
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/llhttp/CMakeFiles/llhttp.dir/build.make lib/llhttp/CMakeFiles/llhttp.dir/http.c.o
 .PHONY : http.c.o
 
 http.i: http.c.i
@@ -232,7 +232,7 @@ http.i: http.c.i
 
 # target to preprocess a source file
 http.c.i:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/llhttp/CMakeFiles/llhttp.dir/build.make lib/llhttp/CMakeFiles/llhttp.dir/http.c.i
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/llhttp/CMakeFiles/llhttp.dir/build.make lib/llhttp/CMakeFiles/llhttp.dir/http.c.i
 .PHONY : http.c.i
 
 http.s: http.c.s
@@ -241,7 +241,7 @@ http.s: http.c.s
 
 # target to generate assembly for a file
 http.c.s:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/llhttp/CMakeFiles/llhttp.dir/build.make lib/llhttp/CMakeFiles/llhttp.dir/http.c.s
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/llhttp/CMakeFiles/llhttp.dir/build.make lib/llhttp/CMakeFiles/llhttp.dir/http.c.s
 .PHONY : http.c.s
 
 llhttp.o: llhttp.c.o
@@ -250,7 +250,7 @@ llhttp.o: llhttp.c.o
 
 # target to build an object file
 llhttp.c.o:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/llhttp/CMakeFiles/llhttp.dir/build.make lib/llhttp/CMakeFiles/llhttp.dir/llhttp.c.o
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/llhttp/CMakeFiles/llhttp.dir/build.make lib/llhttp/CMakeFiles/llhttp.dir/llhttp.c.o
 .PHONY : llhttp.c.o
 
 llhttp.i: llhttp.c.i
@@ -259,7 +259,7 @@ llhttp.i: llhttp.c.i
 
 # target to preprocess a source file
 llhttp.c.i:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/llhttp/CMakeFiles/llhttp.dir/build.make lib/llhttp/CMakeFiles/llhttp.dir/llhttp.c.i
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/llhttp/CMakeFiles/llhttp.dir/build.make lib/llhttp/CMakeFiles/llhttp.dir/llhttp.c.i
 .PHONY : llhttp.c.i
 
 llhttp.s: llhttp.c.s
@@ -268,7 +268,7 @@ llhttp.s: llhttp.c.s
 
 # target to generate assembly for a file
 llhttp.c.s:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/llhttp/CMakeFiles/llhttp.dir/build.make lib/llhttp/CMakeFiles/llhttp.dir/llhttp.c.s
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/llhttp/CMakeFiles/llhttp.dir/build.make lib/llhttp/CMakeFiles/llhttp.dir/llhttp.c.s
 .PHONY : llhttp.c.s
 
 # Help Target
@@ -304,6 +304,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kys/UxPlay && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kys/UxFork && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

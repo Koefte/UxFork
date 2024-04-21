@@ -67,10 +67,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kys/UxPlay
+CMAKE_SOURCE_DIR = /home/kys/UxFork
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kys/UxPlay
+CMAKE_BINARY_DIR = /home/kys/UxFork
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -145,14 +145,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kys/UxPlay && $(CMAKE_COMMAND) -E cmake_progress_start /home/kys/UxPlay/CMakeFiles /home/kys/UxPlay/lib/playfair//CMakeFiles/progress.marks
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/playfair/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kys/UxPlay/CMakeFiles 0
+	cd /home/kys/UxFork && $(CMAKE_COMMAND) -E cmake_progress_start /home/kys/UxFork/CMakeFiles /home/kys/UxFork/lib/playfair//CMakeFiles/progress.marks
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/playfair/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kys/UxFork/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/playfair/clean
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/playfair/clean
 .PHONY : clean
 
 # The main clean target
@@ -162,22 +162,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/playfair/preinstall
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/playfair/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/playfair/preinstall
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/playfair/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kys/UxPlay && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kys/UxFork && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/playfair/CMakeFiles/playfair.dir/rule:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/playfair/CMakeFiles/playfair.dir/rule
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/playfair/CMakeFiles/playfair.dir/rule
 .PHONY : lib/playfair/CMakeFiles/playfair.dir/rule
 
 # Convenience name for target.
@@ -187,7 +187,7 @@ playfair: lib/playfair/CMakeFiles/playfair.dir/rule
 
 # fast build rule for target.
 playfair/fast:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/playfair/CMakeFiles/playfair.dir/build.make lib/playfair/CMakeFiles/playfair.dir/build
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/playfair/CMakeFiles/playfair.dir/build.make lib/playfair/CMakeFiles/playfair.dir/build
 .PHONY : playfair/fast
 
 hand_garble.o: hand_garble.c.o
@@ -196,7 +196,7 @@ hand_garble.o: hand_garble.c.o
 
 # target to build an object file
 hand_garble.c.o:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/playfair/CMakeFiles/playfair.dir/build.make lib/playfair/CMakeFiles/playfair.dir/hand_garble.c.o
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/playfair/CMakeFiles/playfair.dir/build.make lib/playfair/CMakeFiles/playfair.dir/hand_garble.c.o
 .PHONY : hand_garble.c.o
 
 hand_garble.i: hand_garble.c.i
@@ -205,7 +205,7 @@ hand_garble.i: hand_garble.c.i
 
 # target to preprocess a source file
 hand_garble.c.i:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/playfair/CMakeFiles/playfair.dir/build.make lib/playfair/CMakeFiles/playfair.dir/hand_garble.c.i
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/playfair/CMakeFiles/playfair.dir/build.make lib/playfair/CMakeFiles/playfair.dir/hand_garble.c.i
 .PHONY : hand_garble.c.i
 
 hand_garble.s: hand_garble.c.s
@@ -214,7 +214,7 @@ hand_garble.s: hand_garble.c.s
 
 # target to generate assembly for a file
 hand_garble.c.s:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/playfair/CMakeFiles/playfair.dir/build.make lib/playfair/CMakeFiles/playfair.dir/hand_garble.c.s
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/playfair/CMakeFiles/playfair.dir/build.make lib/playfair/CMakeFiles/playfair.dir/hand_garble.c.s
 .PHONY : hand_garble.c.s
 
 modified_md5.o: modified_md5.c.o
@@ -223,7 +223,7 @@ modified_md5.o: modified_md5.c.o
 
 # target to build an object file
 modified_md5.c.o:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/playfair/CMakeFiles/playfair.dir/build.make lib/playfair/CMakeFiles/playfair.dir/modified_md5.c.o
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/playfair/CMakeFiles/playfair.dir/build.make lib/playfair/CMakeFiles/playfair.dir/modified_md5.c.o
 .PHONY : modified_md5.c.o
 
 modified_md5.i: modified_md5.c.i
@@ -232,7 +232,7 @@ modified_md5.i: modified_md5.c.i
 
 # target to preprocess a source file
 modified_md5.c.i:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/playfair/CMakeFiles/playfair.dir/build.make lib/playfair/CMakeFiles/playfair.dir/modified_md5.c.i
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/playfair/CMakeFiles/playfair.dir/build.make lib/playfair/CMakeFiles/playfair.dir/modified_md5.c.i
 .PHONY : modified_md5.c.i
 
 modified_md5.s: modified_md5.c.s
@@ -241,7 +241,7 @@ modified_md5.s: modified_md5.c.s
 
 # target to generate assembly for a file
 modified_md5.c.s:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/playfair/CMakeFiles/playfair.dir/build.make lib/playfair/CMakeFiles/playfair.dir/modified_md5.c.s
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/playfair/CMakeFiles/playfair.dir/build.make lib/playfair/CMakeFiles/playfair.dir/modified_md5.c.s
 .PHONY : modified_md5.c.s
 
 omg_hax.o: omg_hax.c.o
@@ -250,7 +250,7 @@ omg_hax.o: omg_hax.c.o
 
 # target to build an object file
 omg_hax.c.o:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/playfair/CMakeFiles/playfair.dir/build.make lib/playfair/CMakeFiles/playfair.dir/omg_hax.c.o
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/playfair/CMakeFiles/playfair.dir/build.make lib/playfair/CMakeFiles/playfair.dir/omg_hax.c.o
 .PHONY : omg_hax.c.o
 
 omg_hax.i: omg_hax.c.i
@@ -259,7 +259,7 @@ omg_hax.i: omg_hax.c.i
 
 # target to preprocess a source file
 omg_hax.c.i:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/playfair/CMakeFiles/playfair.dir/build.make lib/playfair/CMakeFiles/playfair.dir/omg_hax.c.i
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/playfair/CMakeFiles/playfair.dir/build.make lib/playfair/CMakeFiles/playfair.dir/omg_hax.c.i
 .PHONY : omg_hax.c.i
 
 omg_hax.s: omg_hax.c.s
@@ -268,7 +268,7 @@ omg_hax.s: omg_hax.c.s
 
 # target to generate assembly for a file
 omg_hax.c.s:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/playfair/CMakeFiles/playfair.dir/build.make lib/playfair/CMakeFiles/playfair.dir/omg_hax.c.s
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/playfair/CMakeFiles/playfair.dir/build.make lib/playfair/CMakeFiles/playfair.dir/omg_hax.c.s
 .PHONY : omg_hax.c.s
 
 playfair.o: playfair.c.o
@@ -277,7 +277,7 @@ playfair.o: playfair.c.o
 
 # target to build an object file
 playfair.c.o:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/playfair/CMakeFiles/playfair.dir/build.make lib/playfair/CMakeFiles/playfair.dir/playfair.c.o
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/playfair/CMakeFiles/playfair.dir/build.make lib/playfair/CMakeFiles/playfair.dir/playfair.c.o
 .PHONY : playfair.c.o
 
 playfair.i: playfair.c.i
@@ -286,7 +286,7 @@ playfair.i: playfair.c.i
 
 # target to preprocess a source file
 playfair.c.i:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/playfair/CMakeFiles/playfair.dir/build.make lib/playfair/CMakeFiles/playfair.dir/playfair.c.i
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/playfair/CMakeFiles/playfair.dir/build.make lib/playfair/CMakeFiles/playfair.dir/playfair.c.i
 .PHONY : playfair.c.i
 
 playfair.s: playfair.c.s
@@ -295,7 +295,7 @@ playfair.s: playfair.c.s
 
 # target to generate assembly for a file
 playfair.c.s:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/playfair/CMakeFiles/playfair.dir/build.make lib/playfair/CMakeFiles/playfair.dir/playfair.c.s
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/playfair/CMakeFiles/playfair.dir/build.make lib/playfair/CMakeFiles/playfair.dir/playfair.c.s
 .PHONY : playfair.c.s
 
 sap_hash.o: sap_hash.c.o
@@ -304,7 +304,7 @@ sap_hash.o: sap_hash.c.o
 
 # target to build an object file
 sap_hash.c.o:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/playfair/CMakeFiles/playfair.dir/build.make lib/playfair/CMakeFiles/playfair.dir/sap_hash.c.o
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/playfair/CMakeFiles/playfair.dir/build.make lib/playfair/CMakeFiles/playfair.dir/sap_hash.c.o
 .PHONY : sap_hash.c.o
 
 sap_hash.i: sap_hash.c.i
@@ -313,7 +313,7 @@ sap_hash.i: sap_hash.c.i
 
 # target to preprocess a source file
 sap_hash.c.i:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/playfair/CMakeFiles/playfair.dir/build.make lib/playfair/CMakeFiles/playfair.dir/sap_hash.c.i
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/playfair/CMakeFiles/playfair.dir/build.make lib/playfair/CMakeFiles/playfair.dir/sap_hash.c.i
 .PHONY : sap_hash.c.i
 
 sap_hash.s: sap_hash.c.s
@@ -322,7 +322,7 @@ sap_hash.s: sap_hash.c.s
 
 # target to generate assembly for a file
 sap_hash.c.s:
-	cd /home/kys/UxPlay && $(MAKE) $(MAKESILENT) -f lib/playfair/CMakeFiles/playfair.dir/build.make lib/playfair/CMakeFiles/playfair.dir/sap_hash.c.s
+	cd /home/kys/UxFork && $(MAKE) $(MAKESILENT) -f lib/playfair/CMakeFiles/playfair.dir/build.make lib/playfair/CMakeFiles/playfair.dir/sap_hash.c.s
 .PHONY : sap_hash.c.s
 
 # Help Target
@@ -364,6 +364,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kys/UxPlay && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kys/UxFork && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

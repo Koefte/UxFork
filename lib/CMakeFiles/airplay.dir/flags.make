@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DNOHOLD -DOPENSSL_API_COMPAT=0x10101000L -DSUPPRESS_AVAHI_COMPAT_WARNING
 
-C_INCLUDES = -I/home/kys/UxPlay/lib/playfair -I/home/kys/UxPlay/lib/llhttp -I/usr/include/avahi-compat-libdns_sd
+C_INCLUDES = -I/home/kys/UxFork/lib/playfair -I/home/kys/UxFork/lib/llhttp -I/usr/include/avahi-compat-libdns_sd
 
 C_FLAGS = -DSTANDALONE -D__STDC_CONSTANT_MACROS -D__STDC_LIMIT_MACROS -DTARGET_POSIX -D_LINUX -fPIC -DPIC -D_REENTRANT -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64  -Wall -O2 
 
