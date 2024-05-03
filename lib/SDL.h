@@ -58,9 +58,10 @@ void destroy(SDL_Renderer *renderer,SDL_Window *window){
 	if(!isDestroyed){
 		SDL_DestroyRenderer(renderer);
 		SDL_DestroyWindow(window);
-		TTF_Quit();
+		printf("Destroy got called\n");
+		printf("Maybe destroy error: %s\n",SDL_GetError());
 		SDL_Quit();
-		printf("Destroy got called");
+		TTF_Quit();
 	}
 	isDestroyed = true;
 }

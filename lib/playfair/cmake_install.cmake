@@ -1,4 +1,4 @@
-# Install script for directory: /home/kys/UxFork/lib/playfair
+# Install script for directory: /home/pi/UxFork/lib/playfair
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

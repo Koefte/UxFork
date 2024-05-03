@@ -1,25 +1,18 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "C"
-  )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_C
-  "/home/kys/UxFork/lib/playfair/hand_garble.c" "/home/kys/UxFork/lib/playfair/CMakeFiles/playfair.dir/hand_garble.c.o"
-  "/home/kys/UxFork/lib/playfair/modified_md5.c" "/home/kys/UxFork/lib/playfair/CMakeFiles/playfair.dir/modified_md5.c.o"
-  "/home/kys/UxFork/lib/playfair/omg_hax.c" "/home/kys/UxFork/lib/playfair/CMakeFiles/playfair.dir/omg_hax.c.o"
-  "/home/kys/UxFork/lib/playfair/playfair.c" "/home/kys/UxFork/lib/playfair/CMakeFiles/playfair.dir/playfair.c.o"
-  "/home/kys/UxFork/lib/playfair/sap_hash.c" "/home/kys/UxFork/lib/playfair/CMakeFiles/playfair.dir/sap_hash.c.o"
-  )
-set(CMAKE_C_COMPILER_ID "GNU")
-
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_C
-  "SUPPRESS_AVAHI_COMPAT_WARNING"
   )
 
-# The include file search paths:
-set(CMAKE_C_TARGET_INCLUDE_PATH
-  "lib/playfair/."
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/pi/UxFork/lib/playfair/hand_garble.c" "lib/playfair/CMakeFiles/playfair.dir/hand_garble.c.o" "gcc" "lib/playfair/CMakeFiles/playfair.dir/hand_garble.c.o.d"
+  "/home/pi/UxFork/lib/playfair/modified_md5.c" "lib/playfair/CMakeFiles/playfair.dir/modified_md5.c.o" "gcc" "lib/playfair/CMakeFiles/playfair.dir/modified_md5.c.o.d"
+  "/home/pi/UxFork/lib/playfair/omg_hax.c" "lib/playfair/CMakeFiles/playfair.dir/omg_hax.c.o" "gcc" "lib/playfair/CMakeFiles/playfair.dir/omg_hax.c.o.d"
+  "/home/pi/UxFork/lib/playfair/playfair.c" "lib/playfair/CMakeFiles/playfair.dir/playfair.c.o" "gcc" "lib/playfair/CMakeFiles/playfair.dir/playfair.c.o.d"
+  "/home/pi/UxFork/lib/playfair/sap_hash.c" "lib/playfair/CMakeFiles/playfair.dir/sap_hash.c.o" "gcc" "lib/playfair/CMakeFiles/playfair.dir/sap_hash.c.o.d"
   )
 
 # Targets to which this target links.

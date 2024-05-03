@@ -1,8 +1,8 @@
-if(NOT EXISTS "/home/kys/UxFork/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: /home/kys/UxFork/install_manifest.txt")
+if(NOT EXISTS "/home/pi/UxFork/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: /home/pi/UxFork/install_manifest.txt")
 endif()
 
-file(READ "/home/kys/UxFork/install_manifest.txt" files)
+file(READ "/home/pi/UxFork/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach(file ${files})
   message(STATUS "Uninstalling $ENV{DESTDIR}${file}")

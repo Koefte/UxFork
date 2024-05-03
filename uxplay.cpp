@@ -68,6 +68,7 @@
 
 #define VERSION "1.68"
 
+
 #define SECOND_IN_USECS 1000000
 #define SECOND_IN_NSECS 1000000000UL
 #define DEFAULT_NAME "UxPlay"
@@ -144,6 +145,8 @@ static std::vector <std::string> registered_keys;
 static double db_low = -30.0;
 static double db_high = 0.0;
 static bool taper_volume = false;
+
+static bool useSDL = false;
 
 static SDL_Renderer *renderer = NULL;
 static SDL_Window *window = NULL;
@@ -806,7 +809,13 @@ static void parse_arguments (int argc, char *argv[]) {
             server_name = std::string(argv[++i]);
         } else if (arg == "-nh") {
             do_append_hostname = false;
-        } else if (arg == "-async") {
+        }
+
+	else if(arg == "-sdl"){
+		useSDL = true;
+	}
+
+	 else if (arg == "-async") {
             audio_sync = true;
 	    if (i <  argc - 1) {
                 if (strlen(argv[i+1]) == 2 && strncmp(argv[i+1], "no", 2) == 0) {
@@ -1394,6 +1403,9 @@ extern "C" void export_dacp(void *cls, const char *active_remote, const char *da
 
 extern "C" void conn_init (void *cls) {
     open_connections++;
+    if(useSDL){
+	destroy(renderer,window);
+    }
     LOGD("Open connections: %i", open_connections);
     //video_renderer_update_background(1);
 }
@@ -1486,7 +1498,6 @@ extern "C" void video_process (void *cls, raop_ntp_t *ntp, h264_decode_struct *d
             remote_clock_offset = data->ntp_time_local - data->ntp_time_remote;
         }
         data->ntp_time_remote = data->ntp_time_remote + remote_clock_offset;
-	destroy(renderer,window);
         video_renderer_render_buffer(data->data, &(data->data_len), &(data->nal_count), &(data->ntp_time_remote));
     }
 }
@@ -1724,6 +1735,7 @@ static int start_raop_server (unsigned short display[5], unsigned short tcp[3], 
 
     /* set max number of connections = 2 to protect against capture by new client */
     raop = raop_init(max_connections, &raop_cbs, mac_address.c_str(), keyfile.c_str());
+    printf("start raop server  got called");
     if (raop == NULL) {
         LOGE("Error initializing raop!");
         return -1;
@@ -1897,14 +1909,16 @@ int main (int argc, char *argv[]) {
 #endif
 
     LOGI("UxPlay %s: An Open-Source AirPlay mirroring and audio-streaming server.", VERSION);
-    init();
-//    SDL_Window* window = SDL_CreateWindow("SDL Window",SDL_WINDOWPOS_UNDEFINED,SDL_WINDOWPOS_UNDEFINED,1920,1080,SDL_WINDOW_SHOWN);
-    window = initWindow(1920,1080);
-    renderer = initRenderer(window);
-    clearScreen(renderer,255,255,255,255);
-    SDL_ShowCursor(SDL_DISABLE);
-    renderText(renderer,"Online as TV",500,500,128,true);
-    SDL_RenderPresent(renderer);
+    if(useSDL){
+	    init();
+	//    SDL_Window* window = SDL_CreateWindow("SDL Window",SDL_WINDOWPOS_UNDEFINED,SDL_WINDOWPOS_UNDEFINED,1920,1080,SDL_WINDOW_SHOWN);
+	    window = initWindow(1920,1080);
+	    renderer = initRenderer(window);
+	    clearScreen(renderer,255,255,255,255);
+	    SDL_ShowCursor(SDL_DISABLE);
+	    renderText(renderer,"Online as TV",500,500,128,true);
+	    SDL_RenderPresent(renderer);
+    }
     if (audiosink == "0") {
         use_audio = false;
         dump_audio = false;

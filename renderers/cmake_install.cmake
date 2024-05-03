@@ -1,4 +1,4 @@
-# Install script for directory: /home/kys/UxFork/renderers
+# Install script for directory: /home/pi/UxFork/renderers
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

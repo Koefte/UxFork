@@ -1,4 +1,4 @@
-# Install script for directory: /home/kys/UxFork/lib
+# Install script for directory: /home/pi/UxFork/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

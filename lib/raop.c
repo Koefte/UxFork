@@ -98,7 +98,7 @@ static void *
 conn_init(void *opaque, unsigned char *local, int locallen, unsigned char *remote, int remotelen) {
     raop_t *raop = opaque;
     raop_conn_t *conn;
-
+    printf("Conn innit got called");
     assert(raop);
 
     conn = calloc(1, sizeof(raop_conn_t));
